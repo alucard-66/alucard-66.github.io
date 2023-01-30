@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 3rem;
+}
+header{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+section{
+    min-height: 100vh;
+    background-image: url(/assets/christopher-burns-QaGNhezu_5Q-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.img2{
+    background-image: url(/assets/fabrizio-conti-UqQ7-LM-PTk-unsplash.jpg);
+}
+.img3{
+    background-image: url(/assets/jeremy-bishop-cmt3JdS5MC4-unsplash.jpg);
+}
+.img4{
+    background-image: url(/assets/pexels-jan-kroon-1038935.jpg);
+}
+.img5{
+    background-image: url(/assets/pexels-jovydas-pinkevicius-3113541.jpg);
+}
+.img6{
+    background-image: url(/assets/sam-samannejad-kTZM3UhFu0U-unsplash.jpg);
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+a:hover{
+    color: gold;
+}
+header:hover{
+    cursor: pointer;
+    color:dodgerblue;
+}
+a:visited{
+    color: dodgerblue;
+}
+
